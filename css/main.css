@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.fondo{
+	background: url(../img/grupal.jpg) no-repeat;
+	height: 700px;
+	background-size: cover;
+	
+}
+header{
+
+	height: 150px;
+}
+
+.sumate button{
+	border: none;
+	background:#FCB738;
+	width: 180px;
+	height: 60px;
+	font-size: 1.2rem;
+	margin-top: 65px;
+	margin-left: -30px;
+	cursor: pointer;
+}
+.logo img{
+	
+	height: 60px;
+	margin-top: 24%;
+		
+}
+nav{
+	margin-top: 50px;
+}
+.menu ul{
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+.menu ul li{
+	display: inline;
+	padding: 10px 5px;
+	margin:0;
+}
+.menu ul li a{
+	text-decoration: none;
+	color:#000;
+	font-weight: bold;
+	
+
+}
+
+.menu ul li a:hover{
+	text-decoration: none;
+	color:#fff;
+	font-weight: bold;
+	padding:  5px 7px 15px;
+	background-color: #FCB738;
+
+}
+
+.sumate button:hover{
+	border:1px solid #fff;
+	box-shadow: 1px 1px 5px #FCB738;
+}
+.contenido{
+	height: 250px;
+	margin: 80px 0 ;
+}
+.contenido img{
+	width: 290px;
+	height: 220px;
+}
+.contenido h4{
+	border-bottom: 1px solid #7F7F7F;
+}
+
+footer{
+	background-color: #323230;
+	color:#AFB0AD;
+	
+	
+}
+
+footer p{
+	margin:50px auto;
+}
+
+footer a{
+	text-decoration: none;
+	color:#AFB0AD;
+
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
