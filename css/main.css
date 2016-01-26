@@ -67,10 +67,18 @@ nav{
 .contenido{
 	height: 250px;
 	margin: 80px 0 ;
+	cursor: pointer;
 }
 .contenido img{
 	width: 290px;
 	height: 220px;
+	
+}
+
+.contenido :hover{
+	border: 2px solid  #FCB738;
+	box-shadow: 2px 2px 5px #FCB738;  
+
 }
 .contenido h4{
 	border-bottom: 1px solid #7F7F7F;
@@ -79,8 +87,6 @@ nav{
 footer{
 	background-color: #323230;
 	color:#AFB0AD;
-	
-	
 }
 
 footer p{
@@ -96,3 +102,4 @@ footer a{
 footer a:hover{
 	text-decoration: underline;
 }
+
